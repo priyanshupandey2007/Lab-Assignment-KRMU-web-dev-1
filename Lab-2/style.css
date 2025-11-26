@@ -1,0 +1,139 @@
+/*body*/
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #b5ebeb;
+  text-align: center;
+}
+/*header and navigation*/
+header {
+  background-color: #0b5ed7;
+  color: white;
+  padding: 15px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #0b5ed7;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*heading*/
+h3 {
+  color: #0b5ed7;
+}
+
+/*sections*/
+section {
+  background-color: #f8f8f8;
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  border: none;
+}
+
+/*hr tag*/
+hr {
+  width: 90%;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+/*about section*/
+#about img {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+/*table*/
+table {
+  width: 70%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #0b5ed7;
+  padding: 8px;
+  text-align: center
+}
+
+th {
+  background-color: #0b5ed7;
+  color: white;
+  border: 1px solid #0b5ed7;
+  padding: 8px;
+  text-align: center
+}
+/*project section*/
+#project li {
+  background-color: #f8f8f8;
+  border: 1px solid #b3b6da;
+  margin: 8px auto;
+  width: 80%;
+  padding: 10px;
+  border-radius: 4px;
+}
+/*contact form*/
+form {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input{
+  width: 60%;
+  padding: 6px;
+  border: 1px solid #0b5ed7;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 70px;
+  width: 60%;
+  padding: 6px;
+  border: 1px solid #0b5ed7;
+  border-radius: 4px;
+}
+/*button*/
+button {
+  background-color: #0b5ed7;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+/*footer*/
+footer {
+  background-color: #0b5ed7;
+  color: white;
+  padding: 15px;
+}
+
+footer a {
+  background-color: white;
+  color: #0b5ed7;
+  padding: 6px 12px;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
