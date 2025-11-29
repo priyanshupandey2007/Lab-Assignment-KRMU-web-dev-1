@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f6fc;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f6feb;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.nav-buttons button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.signup {
+    background: #1f6feb;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #e8f1ff;
+}
+
+.hero-search input {
+    padding: 12px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.hero-search button {
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #1f6feb;
+    color: white;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.cat-box {
+    background: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.filters {
+    text-align: center;
+    margin: 20px;
+}
+
+.course-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.course-card {
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 250px;
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact, .footer {
+    text-align: center;
+    padding: 20px;
+    background: #1f6feb;
+    color: white;
+}
+
+.footer {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search-box input {
+        width: 90%;
+    }
+
+    .hero-search input {
+        width: 80%;
+    }
+
+    .categories {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-card {
+        width: 90%;
+    }
+}
